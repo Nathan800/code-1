@@ -44,51 +44,51 @@ The DOM represents the document as a <ins>logical tree</ins> of nodes
  HTML Tag Category:
 
 1. Document Structure Tags:
-   ```
-    <!DOCTYPE html>: Document type declaration (not a tag).
+   
+    `<!DOCTYPE html>`: Document type declaration (not a tag).
 
-    <html>: The root of an HTML page.
+    `<html>`: The root of an HTML page.
 
-    <head>: Contains meta-information about the HTML document.
+    `<head>`: Contains meta-information about the HTML document.
 
-    <body>: Contains the visible page content.
-   ```  
+    `<body>`: Contains the visible page content.
+     
 2. Metadata Tags in `<head>`:
-   ```
-    <meta>: Defines metadata about an HTML document.
+   
+    `<meta>`: Defines metadata about an HTML document.
 
-    <title>: Specifies the title of the document.
+    `<title>`: Specifies the title of the document.
 
-    <link>: Links to external resources (e.g., stylesheets).
+    `<link>`: Links to external resources (e.g., stylesheets).
 
-    <style>: Defines internal CSS.
+    `<style>`: Defines internal CSS.
 
-    <script>: Used to embed client-side scripts (JavaScript).
-   ```  
+    `<script>`: Used to embed client-side scripts (JavaScript).
+    
 3. Inline Text Semantic Tags in `<body>`:
-   ```
-    <a>: Defines a hyperlink.
+   
+    `<a>`: Defines a hyperlink.
 
-    <strong>: Defines important text (bold by default).
+    `<strong>`: Defines important text (bold by default).
 
-    <em>: Defines emphasized text (italic by default).
+    `<em>`: Defines emphasized text (italic by default).
 
-    <b>: Defines bold text (without semantic importance).
+    `<b>`: Defines bold text (without semantic importance).
 
-    <i>: Defines italic text (without semantic importance).
-   ```
+    `<i>`: Defines italic text (without semantic importance).
+   
 4. Text Content Tags in `<body>`:
-   ```
-   <h1> to <h6>: Defines HTML headings.
+   
+   `<h1> to <h6>`: Defines HTML headings.
 
-   <p>: Defines a paragraph.
+   `<p>`: Defines a paragraph.
  
-   <pre>: Defines preformatted text.
+   `<pre>`: Defines preformatted text.
 
-   <hr>: Defines a thematic break (horizontal rule).
+   `<hr>`: Defines a thematic break (horizontal rule).
 
-   <br>: Inserts a single line break.
-   ```
+   `<br>`: Inserts a single line break.
+   
 There are many more categories of tags in HTML like media, links and more.
 
 **What are "standard attributes" ?**
