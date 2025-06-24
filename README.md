@@ -5,7 +5,7 @@
 # Description
 This is what i've learned: [Description](https://github.com/Nathan800/code-1/blob/main/Markdown/description.md)
 # Tasks
-- [ ]  CSS Task
-- [ ] HTML Text Adventure
+- [ ] CSS Task 
+- [ ] HTML Text Adventure 
 
  
