@@ -144,17 +144,36 @@ the CSS rules should be applied to. There are different ways styles can be conne
      
 2. Internal Style:
    - This method involves placing CSS directly within the HTML Document
-   - You include CSS rules inside a `<style` tag, which is typically placed in the `<head>` section
+   - You include CSS rules inside a `<style>` tag, which is typically placed in the `<head>` section
   
 3. Inline Styles:
    - Applying CSS directly to a single HTML element using the `style` attribute  
 
- <ins>Example Image: </ins>  
+**How Selectors Target HTML Elements:**  
 
- <img src=" 
-     alt="Graphical representation of DOM Tree" 
-     width="70%" 
-     style="max-width: 500px; height: auto; border-radius: 8px;">
+CSS has <ins>selectors</ins>, which determines which elements receives the style. Here are the most common  
+type of selectors:  
+
+- **Element Selector (Type Selector):** Selects all instances of a HTML tag
+   - Example: `p {color: blue; }` (applies to all `<p>` tags)
+- **Class Selector:** Selects elements with `class` attribute
+   - Example: `.my-class { background-color: lightgray; }` (applies to `<p class="my-class">`)
+- **ID Selector:** Selects a single element that has a specific `<id>` attribute
+   - Example: `#unique-header { text-align: center; }` (applies to `<h1 id="unique-header">`)
+- **Descendant Selector:** Selects a element that is a descendant of another element
+   - Example: `div p { margin-left: 10px; }` (Selects all `<p>` tags that are inside a `<div>` tag    
+
+
+There are many more selector types. You also could **combine** selectors trough a comma:  
+Example: `p, .class1 {...}` . This would select all p elements as well as all elements with `class="class1"`
+
+
+
+
+
+
+
+ 
 
  
     
